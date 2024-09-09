@@ -11,7 +11,8 @@ The main objective of this project is to analyze the Netflix dataset to identify
 The dataset includes a collection of movies and TV shows available on Netflix as of 2019, containing approximately 7,787 records and 11 attributes.
 
 # Data Pipeline
-Data Understanding: Initially, the dataset was examined to understand its features, structure, and to identify any potential patterns or trends. This involved analyzing the data shape, the data types of each feature, and summarizing the statistics.
+## Data Understanding: 
+Initially, the dataset was examined to understand its features, structure, and to identify any potential patterns or trends. This involved analyzing the data shape, the data types of each feature, and summarizing the statistics.
 
 ## Exploratory Data Analysis (EDA):
 
