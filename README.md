@@ -7,8 +7,32 @@ The objective of this project is to group Netflix's content according to site da
 # Objective
 The main objective of this project is to analyze the Netflix dataset to identify trends and patterns in the content available on the platform. The insights derived will be utilized to improve user experience and guide recommendations for future content.
 
-# Dataset
-The dataset includes a collection of movies and TV shows available on Netflix as of 2019, containing approximately 7,787 records and 11 attributes.
+# Dataset 
+The dataset includes a collection of movies and TV shows available on Netflix as of 2019, containing approximately 7,787 records and 12 attributes.
+## Variables Description
+### 1. show_id : Unique ID for every Movie / Tv Show
+
+### 2. type : Identifier - A Movie or TV Show
+
+### 3. title : Title of the Movie / Tv Show
+
+### 4. director : Director of the Movie
+
+### 5. cast : Actors involved in the movie / show
+
+### 6. country : Country where the movie / show was produced
+
+### 7. date_added : Date it was added on Netflix
+
+### 8. release_year : Actual Releaseyear of the movie / show
+
+### 9. rating : TV Rating of the movie / show
+
+### 10. duration : Total Duration - in minutes or number of seasons
+
+### 11. listed_in : Genere
+
+### 12. description: The Summary description
 
 # Data Pipeline
 ## Data Understanding: 
