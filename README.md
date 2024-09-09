@@ -57,39 +57,59 @@ In this project, we explored various machine learning techniques to analyze a da
 ### Insights from EDA:
 
 1.International movies is the top genre followed by Dramas and Comedies.
+
 2.Movies and TV Shows on Netflix are in ratio 7/3. And TV Shows have long way to catch upto the number of Movies as movies are more popular than TV shows.
+
 3.Most content on Netflix is from United States followed by India and United Kingdom.
+
 4.Raul Campos and Jan Suter together directed 18 movies. We can observe some other great names such as Jay Chapman, Martin Scorsese and Steven Spielberg in top 20 directors list.
+
 5.Most movies are of length ~100 mins while most TV Shows have only one season.
+
 6.Most content on Netflix is rated for mature audience only.
+
 7.From October to January, maximum number of movies and TV shows were added on the platform.
+
 8.The most popular language is English, followed by Hindi and Spanish.
+
 9.The majority of movies and TV shows have a duration between 80 and 120 minutes.
+
 10.There are a small number of movies and TV shows with very short or very long durations.
 
 ### Insights from PCA:
 
 1.The first 4750 principal components explain 90% of the variance in the data.
+
 2.This suggests that the data is relatively high-dimensional, but that most of the information can be captured by a relatively small number of features.
+
 3.This can be useful for reducing the dimensionality of the data for downstream tasks, such as clustering or classification.
 
 ### Insights from K-means clustering:
 
 1.The optimal number of clusters according to the elbow method is 3.
-2.The optimal number of clusters according to the silhouette method is 5. This suggests that the data can be reasonably well-clustered into 3 or 5 groups ,clusters are relatively well-separated, as indicated by the silhouette scores.
+
+2.The optimal number of clusters according to the silhouette method is 5. This suggests that the data can be reasonably well-clustered into 3 or 5 groups ,clusters are relatively well-separated, as 
+indicated by the silhouette scores.
+
 3.The most popular cluster is cluster 0, which contains a mix of movies and TV shows.
+
 4.The other clusters are more specialized, containing mostly movies or TV shows.
 
 ### Insights from hierarchical clustering:
 
 1.The optimal number of clusters according to the dendrogram is 6.
+
 2.This suggests that the data can be reasonably well-clustered into 6 groups.
+
 3.The clusters are relatively well-separated, as indicated by the distances between the clusters in the dendrogram.
+
 4.The most popular cluster is cluster 0, which contains a mix of movies and TV shows.
 
 
 ### Insights from the recommender system:
 
 1.The recommender system is able to generate relevant recommendations based on the cosine similarity between movies and TV shows.
+
 2.The recommendations are based on the content of the movies and TV shows, rather than on their popularity or other factors.
+
 3.This can be useful for users who are looking for new and interesting content to watch.
