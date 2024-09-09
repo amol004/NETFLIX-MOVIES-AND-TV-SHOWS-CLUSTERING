@@ -35,20 +35,20 @@ The dataset includes a collection of movies and TV shows available on Netflix as
 ### 12. description: The Summary description
 
 # Data Pipeline
-## Data Understanding: 
+### Data Understanding: 
 Initially, the dataset was examined to understand its features, structure, and to identify any potential patterns or trends. This involved analyzing the data shape, the data types of each feature, and summarizing the statistics.
 
-## Exploratory Data Analysis (EDA):
+### Exploratory Data Analysis (EDA):
 
-An exploratory analysis was conducted to identify patterns and dependencies within the data, providing a basis for further processing. Data Cleaning: The dataset was cleaned by checking for duplicate values, handling null values and outliers, and imputing missing data where necessary.
+An exploratory analysis was conducted to identify patterns and dependencies within the data, providing a basis for further processing.The dataset was cleaned by checking for duplicate values, handling null values and outliers, and imputing missing data where necessary.
 
-## Text Data Preprocessing : 
+### Text Data Preprocessing : 
 Textual data was prepared for clustering by using techniques such as stop word removal, punctuation removal, conversion to lowercase, stemming, tokenization, and word vectorization. Principal Component Analysis (PCA) was applied to manage the dimensionality.
 
-## Clustering Implementation: 
+### Clustering Implementation: 
 K-Means and Agglomerative Hierarchical clustering algorithms were used to group the movies, with the optimal number of clusters being determined through various methods.
 
-## Content-Based Recommendation System:
+### Content-Based Recommendation System:
 A content-based recommendation system was developed using the similarity matrix obtained from cosine similarity, which provides users with 10 recommendations based on the type of content they have watched.
 
 # Conclusion
