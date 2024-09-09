@@ -78,6 +78,8 @@ In this project, we explored various machine learning techniques to analyze a da
 
 ### Insights from PCA:
 
+![download](https://github.com/user-attachments/assets/044f2203-80e3-43b6-ba0e-e89b7daef867)
+
 1.The first 4750 principal components explain 90% of the variance in the data.
 
 2.This suggests that the data is relatively high-dimensional, but that most of the information can be captured by a relatively small number of features.
