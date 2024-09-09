@@ -95,6 +95,8 @@ indicated by the silhouette scores.
 
 4.The other clusters are more specialized, containing mostly movies or TV shows.
 
+![download](https://github.com/user-attachments/assets/de2bd801-3b36-4ea7-a15d-fea24031b93b)
+
 ### Insights from hierarchical clustering:
 
 1.The optimal number of clusters according to the dendrogram is 6.
@@ -105,6 +107,7 @@ indicated by the silhouette scores.
 
 4.The most popular cluster is cluster 0, which contains a mix of movies and TV shows.
 
+![download](https://github.com/user-attachments/assets/5aed1d30-23b9-42f6-8545-24e295be83c7)
 
 ### Insights from the recommender system:
 
@@ -113,3 +116,5 @@ indicated by the silhouette scores.
 2.The recommendations are based on the content of the movies and TV shows, rather than on their popularity or other factors.
 
 3.This can be useful for users who are looking for new and interesting content to watch.
+
+
